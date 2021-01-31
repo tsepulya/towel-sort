@@ -8,4 +8,5 @@ module.exports = function towelSort (matrix) {
           result.push(matrix[i][k]);
       }
   }
+  return result;
 }
