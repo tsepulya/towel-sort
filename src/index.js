@@ -6,6 +6,6 @@ module.exports = function towelSort (matrix) {
     if (matrix === undefined || matrix.length === 0) {
         return array;
     } else {
-       return matrix.join(',').split(',').map(a => Number(a));
+       return matrix.join(',').split(',').map(a => Number(a)).sort((a, b) => a - b);
     }
 }
